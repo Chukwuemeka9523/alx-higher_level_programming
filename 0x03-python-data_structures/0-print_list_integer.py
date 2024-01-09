@@ -8,7 +8,11 @@
 # --------------------------
 
 def print_list_integer(my_list=[]):
-    """ This function prints all the integers of a list """
+    """ This function prints all the integers of a list 
+    
+     Args:
+      my_list: the list argument whose items will be printed
+    """
    # Iterate through the items in the list
     for num_of_int in my_list:
         print("{:d}".format(num_of_int))
